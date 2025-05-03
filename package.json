@@ -1,0 +1,29 @@
+{
+  "name": "canvas-forge",
+  "version": "1.0.0",
+  "description": "The visual first HTML Canvas playground.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "npx tsc",
+    "build:dev": "npx tsc --watch --preserveWatchOutput",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benedekkata/canvas-forge.git"
+  },
+  "keywords": [
+    "html",
+    "canvas",
+    "playground"
+  ],
+  "author": "Katalin Benedek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benedekkata/canvas-forge/issues"
+  },
+  "homepage": "https://github.com/benedekkata/canvas-forge#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
